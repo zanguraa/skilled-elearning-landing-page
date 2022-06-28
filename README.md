@@ -1,2 +1,2 @@
- Skilled e-learning landing page [https://github.com/zanguraa/skilled-elearning-landing-page/tree/master/starter-code]
+ # Skilled e-learning landing page [https://zanguraa.github.io/skilled-elearning-landing-page/]
 
