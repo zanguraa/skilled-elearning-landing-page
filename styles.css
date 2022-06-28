@@ -1,0 +1,555 @@
+body {
+    margin: 0;
+    background: #F2F2F2;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+header h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.header-button {
+    width: 140px;
+    height: 48px;
+    color: #FFFFFF;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    border-radius: 28px;
+    border: none;
+    background: rgba(19, 24, 63, 1);
+}
+
+.header-button:hover {
+    background-color: rgba(102, 108, 163, 1);
+}
+
+main {
+    padding: 16px;
+}
+
+.budget-content h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.budget-content p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    color: rgba(131, 134, 154, 1);
+}
+
+.budget-button {
+    height: 56px;
+    width: 167px;
+    font-family: 'Plus Jakarta sans-serif';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48, #F02AA6 100%);
+    border-radius: 31px;
+    border: none;
+}
+
+.budget-button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
+     rgba(255, 255, 255, 0.5)),
+      linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.girl-image-container {
+    width: 100%;
+}
+
+.girl-image-container img {
+    width: 100%;
+}
+
+.hero-img {
+    display: none;
+}
+
+.courses-checkout {
+    margin-right: 20px;
+    width: 100%;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.courses-checkout h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    padding: 24px 29px 32px 28px;
+}
+
+.card {
+    display: flex;
+    flex-basis: 33.33%;
+    flex-direction: column;
+    margin-top: 60px;
+    padding: 13px;
+    /* padding-bottom: 38px; */
+    height: 283px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.card h4 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+    margin: 0;
+}
+
+.card img {
+    width: 56px;
+    height: 56px;
+    margin-top: -45px;
+}
+
+.card span {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+}
+
+.card button {
+    border: none;
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #F74780;
+    background: #FFFFFF;
+}
+
+.card button:hover {
+    color: #FFA7C3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 88px;
+    background: #13183F;
+    padding: 16px;
+    margin-top: 60px;
+}
+
+footer h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 35px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+footer button {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    border: none;
+    padding: 9px 24px 11px 24px;
+}
+
+footer button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5),
+     rgba(255, 255, 255, 0.5)),
+      linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);
+}
+
+@media screen and (min-width: 768px) {
+
+    body {
+        background-image: url(./assets/image-hero-tablet@2x.png);
+    background-repeat: no-repeat;
+    background-position: top -58px right -288px;
+    background-size: 640px 640px;
+    }
+
+  main {  
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hero-girl {
+    display: none;
+}
+
+.budget-content {
+    flex-basis: 50%;
+}
+
+#card-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.courses-checkout {
+    width: 339px;
+    height: 259px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    flex-basis: 44%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    padding: 13px;
+    height: 242px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+    border-radius: 15px;
+    flex-basis: 40%;
+}
+
+@media screen and (min-width: 1440px) {
+
+    body {
+        background-image: url(./assets/image-hero-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top -84px right -239px;
+        background-size: 882px 772px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 165px;
+        padding-right: 165px;
+    }
+
+    main {
+        padding-left: 165px;
+        padding-right: 165px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    header h3 {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 45px;
+        color: rgba(19, 24, 63, 1);
+    }
+    
+    .header-button {
+        width: 140px;
+        height: 48px;
+        color: #FFFFFF;
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        border-radius: 28px;
+        border: none;
+        background: rgba(19, 24, 63, 1);
+    }
+
+    .budget-content {
+        flex-basis: 40%;
+    }
+
+    .budget-content h1 {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 800;
+        font-size: 56px;
+        line-height: 70px;
+        color: rgba(19, 24, 63, 1);
+    }
+
+    .budget-content p {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        color: rgba(131, 134, 154, 1);
+    }
+
+    .budget-button {
+        height: 56px;
+        width: 167px;
+        font-family: 'Plus Jakarta sans-serif';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #FF6F48, #F02AA6 100%);
+        border-radius: 31px;
+        border: none;
+    }
+
+    #card-section {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 200px;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .courses-checkout {
+        /* width: 350px; */
+        height: 322px;
+        border-radius: 15px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        flex-basis: 32%;
+        /* margin-top: -4px; */
+    }
+
+    .courses-checkout h3 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+        color: #FFFFFF;
+        margin-top: 28px;
+        padding: 40px;
+        /* margin: 0; */
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        padding: 12px;
+        height: 298px;
+        background: #FFFFFF;
+        box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+        border-radius: 15px;
+        flex-basis: 28%;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+
+    .card span {
+        font-family: 'Plus Jakarta Sans';
+        font-weight: 500;
+        font-style: normal;
+        font-size: 18px;
+        line-height: 28px;
+        color: #83869A;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 88px;
+        background: rgb(19, 24, 63);
+        padding-left: 165px;
+        padding-right: 165px;
+        margin-top: 60px;
+    }
+
+    footer h3 {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 43px;
+        color: #FFFFFF;
+        margin: 0;
+    }
+
+    footer button {
+        font-family: 'Plus Jakarta Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: #FFFFFF;
+        background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+        border-radius: 28px;
+        border: none;
+        padding: 9px 24px 11px 24px;
+    }
+}
+
+
+
+}
+
+/* body {
+    margin-top: 29px;
+    margin-left: 165px;
+    background: #F2F2F2;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h3 {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 45.36px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.header-button {
+    height: 56px;
+    font-family: 'Plus Jakarta sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #13183F;
+    border-radius: 28px;
+    width: 167px;
+    border: none;
+}
+
+.header-button:hover {
+    background-color: rgba(102, 108, 163, 1);
+}
+
+.budget-content {
+    max-width: 457px;
+    margin-bottom: 226px;
+}
+
+.budget-content h1 {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 70.56px;
+    color: rgba(19, 24, 63, 1);
+}
+
+.budget-content p {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(131, 134, 154, 1);
+    padding-right: 10px;
+}
+
+.budget-button {
+    height: 63px;
+    width: 167px;
+    font-family: 'Plus Jakarta sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48, #F02AA6 100%);
+    border-radius: 31px;
+    border: none;
+}
+
+.budget-button:hover {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), 
+    rgba(255, 255, 255, 0.5)), 
+    linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 31px;
+}   
+
+.courses-checkout {
+    height: 322px;
+    margin-right: 20px;
+    width: 350px;
+    border-radius: 15px;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+
+.courses-checkout h3 {
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding: 50px;
+}
+
+#card-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.card {
+    display: flex;
+    flex-basis: 33.33%;
+    flex-direction: column;
+    margin-right: 20px;
+    height: 327px;
+    background: #FFFFFF;
+    box-shadow: 0px 25px 50px rgb(6 22 141 / 4%);
+    border-radius: 15px;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 56px;
+    height: 56px;
+}
+
+.card span {
+    font-family: 'Plus Jakarta Sans';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #83869A;
+    width: 286px;
+}
+
+.card button {
+
+} */
